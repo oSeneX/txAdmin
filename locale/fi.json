@@ -75,7 +75,7 @@
                 },
                 "normal": {
                     "title": "Normaali",
-                    "label": "Palauta pelaajan tila normaaliksi",
+                    "label": "Palauta tila normaaliksi",
                     "success": "Palautettu takaisin normaaliin tilaan"
                 }
             },
@@ -131,11 +131,11 @@
             "heal": {
                 "title": "Elvytä",
                 "myself": {
-                    "title": "Minä",
+                    "title": "Minut",
                     "label": "Elvyttää sinut",
                     "success_0": "Elvytetty!",
                     "success_1": "Kaikki on taas hyvin!",
-                    "success_2": "Ei kuolleena ollutkaan niin kivaa!",
+                    "success_2": "Kuka ajo torin ohi?",
                     "success_3": "Elossa ollaan taas!"
                 },
                 "everyone": {
@@ -147,22 +147,22 @@
             "announcement": {
                 "title": "Lähetä ilmoitus",
                 "label": "Lähetä ilmoitus kaikille pelaajille.",
-                "dialog_desc": "Enter the message you want to broadcast to all players.",
+                "dialog_desc": "Syötä viesti, jonka haluat lähettää pelaajille.",
                 "dialog_placeholder": "Ilmoituksesi....",
                 "dialog_success": "Lähetetään ilmoitusta."
             },
             "clear_area": {
                 "title": "Tyhjennä alue",
-                "label": "Reset a specified world area to its default state",
+                "label": "Tyhjennä alue takaisin alkuperäiseen tilaan",
                 "dialog_desc": "Aseta haluttu etäisyys väliltä (0-300). Tämä toiminto ei poista palvelimen puolelta (server side) luotuja asioita.",
                 "dialog_success": "Tyjennetään alueelta: %{radius}m",
                 "dialog_error": "Virheellinen alue, yritä uudelleen."
             },
             "player_ids": {
                 "title": "Näytä pelaajien ID:t",
-                "label": "Toggle showing player IDs (and other info) above the head of all nearby players",
-                "alert_show": "Showing nearby player NetIDs.",
-                "alert_hide": "Hiding nearby player NetIDs."
+                "label": "Näytä lähellä olevien pelaajien ID:t",
+                "alert_show": "Näytetään pelaajien NetID:t.",
+                "alert_hide": "Piilotetaan pelaajien NetID:t."
             }
         },
         "page_players": {
@@ -201,7 +201,7 @@
                 "title": "Pelaajan toiminnot",
                 "command_sent": "Toiminto suoritettu!",
                 "moderation": {
-                    "title": "Hallinnoini",
+                    "title": "Hallinnointi",
                     "options": {
                         "dm": "Yksityisviesti",
                         "warn": "Varoita",
@@ -248,16 +248,16 @@
                 "troll": {
                     "title": "Troll",
                     "options": {
-                        "drunk": "Make Drunk",
-                        "fire": "Set Fire",
-                        "wild_attack": "Wild attack"
+                        "drunk": "Humalluta",
+                        "fire": "Aseta tuleen",
+                        "wild_attack": "Villi hyökkäys"
                     }
                 }
             },
             "info": {
                 "title": "Player info",
                 "session_time": "Session Time",
-                "play_time": "Play time",
+                "play_time": "Pelannut yhteensä",
                 "joined": "Liittynyt",
                 "notes_placeholder": "Muistiinpanot"
             },
